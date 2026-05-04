@@ -34,7 +34,7 @@ export function HeroSection() {
           muted
           loop
           playsInline
-          poster="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&q=90"
+          poster="/home.jpg"
         >
           <source src={HERO_VIDEO} type="video/mp4" />
         </video>

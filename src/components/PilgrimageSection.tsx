@@ -11,22 +11,22 @@ const places = [
   {
     name: "Vellankani Basilica",
     region: "Tamil Nadu",
-    src: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=900&q=90",
+    src: "/vellankani-basilica.jpg",
   },
   {
     name: "Basilica of Bom Jesus",
     region: "Goa",
-    src: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=90",
+    src: "/Basilica of Bom Jesus.jpg",
   },
   {
     name: "Sacred Heart Cathedral",
     region: "Delhi",
-    src: "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?auto=format&fit=crop&w=800&q=90",
+    src: "/Sacred Heart Cathedral.jpg",
   },
   {
     name: "St. Alphonsa Church",
     region: "Kerala",
-    src: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=90",
+    src: "/St. Alphonsa Church.jpg",
   },
 ];
 

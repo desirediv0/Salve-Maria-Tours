@@ -8,9 +8,9 @@ import { SectionLabel } from "./SectionLabel";
 import { SecondaryNavyLink } from "./PremiumButtons";
 
 const mainImg =
-  "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?auto=format&fit=crop&w=1200&q=90";
+  "/Travel-2.jpg";
 const overlayImg =
-  "https://images.unsplash.com/photo-1464207687429-7505649dae38?auto=format&fit=crop&w=800&q=90";
+  "/Travel.jpg";
 
 const pillars = [
   {
