@@ -24,8 +24,9 @@ export function DestinationsGrid({ items }: { items: DestinationCard[] }) {
         /* Alternate card heights for editorial rhythm */
         const isTall = i % 3 === 0;
         return (
-          <motion.article
+          <motion.div
             key={d.slug}
+            role="article"
             variants={staggerItem}
             className={`group relative flex flex-col justify-end overflow-hidden rounded-2xl shadow-card transition-all duration-500 hover:-translate-y-1.5 hover:shadow-card-hover ${isTall ? "min-h-[440px]" : "min-h-[360px]"
               }`}
@@ -99,7 +100,7 @@ export function DestinationsGrid({ items }: { items: DestinationCard[] }) {
                 <HiArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover/btn:translate-x-1" />
               </Link>
             </div>
-          </motion.article>
+          </motion.div>
         );
       })}
     </motion.div>

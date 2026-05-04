@@ -98,8 +98,9 @@ export function WhyChooseSection() {
             const isSky = f.accent === "sky";
 
             return (
-              <motion.article
+              <motion.div
                 key={f.title}
+                role="article"
                 variants={staggerItem}
                 className="group relative flex flex-col overflow-hidden rounded-2xl border border-white/8 bg-white/5 p-7 transition-all duration-400 hover:bg-white/10 hover:border-white/15"
               >
@@ -141,7 +142,7 @@ export function WhyChooseSection() {
                   className={`absolute bottom-0 left-0 h-[2px] w-0 transition-all duration-500 group-hover:w-full ${isSky ? "bg-sky" : "bg-orange"
                     }`}
                 />
-              </motion.article>
+              </motion.div>
             );
           })}
         </motion.div>

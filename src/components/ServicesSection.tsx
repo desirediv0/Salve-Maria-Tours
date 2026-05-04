@@ -138,8 +138,9 @@ export function ServicesSection() {
             const a = accentStyles[s.accent];
 
             return (
-              <motion.article
+              <motion.div
                 key={s.title}
+                role="article"
                 variants={staggerItem}
                 className={`group relative flex flex-col overflow-hidden rounded-2xl border border-white bg-white p-7 shadow-card transition-all duration-400 ease-out hover:-translate-y-1.5 hover:shadow-card-hover border-t-2 border-t-transparent ${a.borderHover}`}
               >
@@ -183,7 +184,7 @@ export function ServicesSection() {
                       : "bg-navy"
                     }`}
                 />
-              </motion.article>
+              </motion.div>
             );
           })}
         </motion.div>

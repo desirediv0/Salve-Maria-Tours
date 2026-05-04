@@ -184,7 +184,7 @@ export function Navbar() {
       </header>
 
       {/* ── Mobile menu overlay ── */}
-      <AnimatePresence>
+      <AnimatePresence initial={false}>
         {open && (
           <>
             {/* Backdrop */}

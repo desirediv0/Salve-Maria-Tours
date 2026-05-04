@@ -49,8 +49,7 @@ export function PilgrimagesExplorer() {
               >
                 {/* Active region accent dot */}
                 {active && (
-                  <motion.span
-                    layoutId="tab-dot"
+                  <span
                     className={`absolute -top-0.5 -right-0.5 h-2 w-2 rounded-full ${a.dot}`}
                   />
                 )}
@@ -75,7 +74,7 @@ export function PilgrimagesExplorer() {
       </div>
 
       {/* ── Cards grid ── */}
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={region}
           initial={{ opacity: 0, y: 16 }}
@@ -85,8 +84,9 @@ export function PilgrimagesExplorer() {
           className="mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 sm:grid sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-3"
         >
           {sites.map((site, i) => (
-            <motion.article
+            <motion.div
               key={site.id}
+              role="article"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.06, duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
@@ -160,7 +160,7 @@ export function PilgrimagesExplorer() {
                 className={`h-[2px] w-0 transition-all duration-500 group-hover:w-full ${region === "south" ? "bg-sky" : region === "west" ? "bg-orange" : "bg-navy"
                   }`}
               />
-            </motion.article>
+            </motion.div>
           ))}
         </motion.div>
       </AnimatePresence>

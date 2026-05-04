@@ -12,7 +12,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "Golden Triangle",
     highlights: ["Delhi", "Agra", "Jaipur"],
     image:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+      "/Golden Triangle.jpg",
     tag: "Heritage Circuit",
   },
   {
@@ -20,7 +20,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "North India",
     highlights: ["Delhi", "Rajasthan"],
     image:
-      "https://images.unsplash.com/photo-1595658658481-bbf7b8c1c6a5?auto=format&fit=crop&w=1200&q=80",
+      "/Rajasthan.jpg",
     tag: "Royal North",
   },
   {
@@ -28,7 +28,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "South India",
     highlights: ["Kerala", "Vellankani", "Pondicherry"],
     image:
-      "https://images.unsplash.com/photo-1602216056096-3b40cc39c994?auto=format&fit=crop&w=1200&q=80",
+      "/Kerala Backwaters.jpg",
     tag: "Coastal & Sacred",
   },
   {
@@ -36,7 +36,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "West India",
     highlights: ["Mumbai", "Goa"],
     image:
-      "https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&w=1200&q=80",
+      "/Goa.jpg",
     tag: "Metro & Shores",
   },
   {
@@ -44,7 +44,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "Hill Stations",
     highlights: ["Shimla", "Manali", "Dharamshala", "Nainital"],
     image:
-      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80",
+      "/Shimla & Manali.jpg",
     tag: "Mountains",
   },
   {
@@ -52,7 +52,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     title: "Rishikesh",
     highlights: ["Adventure", "Spiritual gateway", "Ganga Aarti"],
     image:
-      "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=1200&q=80",
+      "/Rishikesh.jpg",
     tag: "Adventure & Spirit",
   },
 ];
