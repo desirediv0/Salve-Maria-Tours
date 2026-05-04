@@ -56,15 +56,14 @@ export function Footer() {
           {/* Col 1 — Brand */}
           <div className="space-y-6 lg:col-span-1">
             <Link href="/" className="group inline-block max-w-full">
-              <div className="relative h-12 w-[200px] max-w-full overflow-hidden rounded-lg shadow-lg ring-1 ring-white/10 transition-all group-hover:ring-sky/40 sm:h-[52px] sm:w-[228px]">
-                <Image
-                  src="/logo2.png"
-                  alt="Salve Maria Tours & Travels"
-                  fill
-                  className="object-contain object-left"
-                  sizes="(max-width: 640px) 200px, 228px"
-                />
-              </div>
+              <Image
+                src="/logo2.png"
+                alt="Salve Maria Tours & Travels"
+                width={320}
+                height={90}
+                className="h-12 w-auto max-h-[52px] max-w-full rounded-lg shadow-lg ring-1 ring-white/10 transition-all group-hover:ring-sky/40 sm:max-h-14"
+                sizes="(max-width: 768px) 100vw, 320px"
+              />
             </Link>
 
             <p className="font-body text-sm font-light leading-relaxed text-white/55">

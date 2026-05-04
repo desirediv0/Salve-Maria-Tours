@@ -63,19 +63,15 @@ export function Navbar() {
             className="flex shrink-0 items-center outline-none"
             onClick={() => setOpen(false)}
           >
-            <div
-              className={`relative h-12 w-[180px] shrink-0 overflow-hidden rounded-lg sm:h-16 sm:w-[180px] ${isGlass ? "drop-shadow-md" : "drop-shadow-md"
-                }`}
-            >
-              <Image
-                src={isGlass ? "/logo2.png" : "/logo.png"}
-                alt="Salve Maria Tours & Travels"
-                fill
-                className="object-contain object-left"
-                sizes="(max-width: 640px) 180px, 180px"
-                priority
-              />
-            </div>
+            <Image
+              src={isGlass ? "/logo2.png" : "/logo.png"}
+              alt="Salve Maria Tours & Travels"
+              width={320}
+              height={90}
+              priority
+              className={`h-9 w-auto max-h-10 max-w-[min(320px,calc(100vw-10rem))] rounded-lg sm:h-11 sm:max-h-12 ${isGlass ? "drop-shadow-md" : ""}`}
+              sizes="(max-width: 1024px) min(320px, calc(100vw - 10rem)), 320px"
+            />
           </Link>
 
           {/* ── Desktop nav links ── */}
@@ -212,18 +208,17 @@ export function Navbar() {
               <div className="flex items-center justify-between border-b border-gray-100 px-6 py-5">
                 <Link
                   href="/"
-                  className="flex items-center"
+                  className="flex min-w-0 max-w-[calc(100%-3rem)] items-center"
                   onClick={() => setOpen(false)}
                 >
-                  <div className="relative h-12 w-[180px] shrink-0 overflow-hidden rounded-lg">
-                    <Image
-                      src="/logo.png"
-                      alt="Salve Maria Tours & Travels"
-                      fill
-                      className="object-contain object-left"
-                      sizes="180px"
-                    />
-                  </div>
+                  <Image
+                    src="/logo.png"
+                    alt="Salve Maria Tours & Travels"
+                    width={320}
+                    height={90}
+                    className="h-9 w-auto max-h-10 rounded-lg sm:h-10"
+                    sizes="280px"
+                  />
                 </Link>
                 <button
                   onClick={() => setOpen(false)}
