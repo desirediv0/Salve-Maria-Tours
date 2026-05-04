@@ -69,7 +69,7 @@ export function Navbar() {
               width={320}
               height={90}
               priority
-              className={`h-9 w-auto max-h-10 max-w-[min(320px,calc(100vw-10rem))] rounded-lg sm:h-11 sm:max-h-12 ${isGlass ? "drop-shadow-md" : ""}`}
+              className={`h-10 w-auto max-h-12 max-w-[min(320px,calc(100vw-10rem))] rounded-lg sm:h-14 sm:max-h-14 ${isGlass ? "drop-shadow-md" : ""}`}
               sizes="(max-width: 1024px) min(320px, calc(100vw - 10rem)), 320px"
             />
           </Link>
