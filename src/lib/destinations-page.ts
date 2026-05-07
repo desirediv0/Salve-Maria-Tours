@@ -18,7 +18,7 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
   {
     slug: "north-india",
     title: "North India",
-    highlights: ["Delhi", "Rajasthan"],
+    highlights: ["Delhi", "Rajasthan", "Punjab", "Agra"],
     image:
       "/Rajasthan.jpg",
     tag: "Royal North",

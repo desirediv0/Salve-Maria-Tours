@@ -56,7 +56,7 @@ export function HeroSection() {
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(108deg, rgba(6,8,18,0.85) 0%, rgba(10,14,30,0.45) 100%, transparent 50%)",
+            "linear-gradient(108deg, rgba(6, 8, 18, 0.16) 0%, rgba(10, 14, 30, 0.35) 100%, transparent 50%)",
         }}
       />
       {/* Bottom: stats strip legibility */}
@@ -80,7 +80,7 @@ export function HeroSection() {
         <div className="mx-auto w-full max-w-7xl px-6 pt-10 sm:px-10 lg:px-14">
 
           {/* Eyebrow */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: -16 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
@@ -90,7 +90,7 @@ export function HeroSection() {
             <span className="font-body text-[10px] font-bold uppercase tracking-[0.28em] text-orange">
               Sacred Journeys Await
             </span>
-          </motion.div>
+          </motion.div> */}
 
           {/* Headline */}
           <div className="overflow-hidden">
