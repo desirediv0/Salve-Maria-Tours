@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import { HiLocationMarker, HiMail, HiPhone } from "react-icons/hi";
 import { FacebookIcon, InstagramIcon } from "./brand-icons";
@@ -162,7 +162,7 @@ export function Footer() {
                 <li className="flex items-start gap-3">
                   <HiLocationMarker className="mt-0.5 h-3.5 w-3.5 shrink-0 text-sky/70" aria-hidden />
                   <span className="font-body text-sm font-light leading-snug text-white/55">
-                    Sector-12A Road, Block A,<br />Sector 12 Dwarka, Delhi, India
+                    Adaani Oyester Grande<br />Sector 102 Dwarka Express Way Gurgaon 122005
                   </span>
                 </li>
                 <li>
@@ -206,7 +206,7 @@ export function Footer() {
           <div className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-orange/60" />
             <p className="font-body text-xs font-light text-white/30">
-              Delhi, India
+              Gurgaon, India
             </p>
           </div>
         </div>

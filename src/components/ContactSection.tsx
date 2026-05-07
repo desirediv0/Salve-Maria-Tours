@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
@@ -19,7 +19,7 @@ const contactItems = [
   {
     icon: HiLocationMarker,
     label: "Address",
-    value: "Sector-12A Road, Block A, Sector 12 Dwarka, Delhi, India",
+    value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005",
     href: undefined,
   },
   {

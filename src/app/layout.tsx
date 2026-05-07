@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Salve Maria Tours & Travels",
   },
   description:
-    "Catholic pilgrimage and travel agency in Delhi, India. Sacred journeys, customized tours, flights, hotels, and caring guides — Journey With Grace.",
+    "Catholic pilgrimage and travel agency in Gurgaon, India. Sacred journeys, customized tours, flights, hotels, and caring guides — Journey With Grace.",
   metadataBase: new URL("https://www.salvemariatours.com"),
   openGraph: {
     title: "Salve Maria Tours & Travels",

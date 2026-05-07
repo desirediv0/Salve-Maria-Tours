@@ -5,7 +5,7 @@ import { ContactSection } from "@/components/ContactSection";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Salve Maria Tours & Travels in Sector 12 Dwarka, Delhi, India — phone, email, and enquiry form for pilgrimages and travel.",
+    "Contact Salve Maria Tours & Travels at Adaani Oyester Grande, Gurgaon — phone, email, and enquiry form for pilgrimages and travel.",
 };
 
 const heroImage =
@@ -39,7 +39,7 @@ const quickContacts = [
   {
     icon: "📍",
     label: "Visit Us",
-    value: "Sector-12A Road, Block A, Sector 12 Dwarka, Delhi, India",
+    value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005",
     sub: "",
     href: undefined,
     color: "navy" as const,
@@ -159,7 +159,7 @@ export default function ContactPage() {
                 </p>
                 <div className="mt-4 space-y-2.5">
                   {[
-                    { label: "Address", value: "Sector-12A Road, Block A, Sector 12 Dwarka, Delhi, India" },
+                    { label: "Address", value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005" },
                     { label: "Hours", value: "Monday–Saturday: 9:00 AM – 5:00 PM" },
                     { label: "Phone", value: "+91 9958815430" },
                   ].map((row) => (
@@ -177,7 +177,7 @@ export default function ContactPage() {
 
               {/* Directions CTA */}
               <a
-                href="https://maps.google.com/?q=Sector-12A+Road+Block+A+Sector+12+Dwarka+Delhi+India"
+                href="https://maps.google.com/?q=Adaani+Oyester+Grande+Sector+102+Dwarka+Express+Way+Gurgaon+122005"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-4 font-body text-sm font-semibold text-navy shadow-card transition-all hover:border-sky/30 hover:shadow-card-hover"

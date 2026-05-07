@@ -191,39 +191,7 @@ export default function AboutPage() {
       {/* ── Founder / Leadership ── */}
       <section className="overflow-hidden bg-white py-14 sm:py-16">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-14">
-          <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
-
-            {/* Image */}
-            <div className="relative mx-auto max-w-md lg:mx-0">
-              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl shadow-soft">
-                <Image
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=80"
-                  alt="Anjali Simon, Founder & CEO"
-                  fill
-                  className="object-cover transition-transform duration-700 hover:scale-[1.04]"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy/75 via-transparent to-transparent" />
-                {/* Name overlay */}
-                <div className="absolute bottom-6 left-6 right-6">
-                  <p className="font-body text-[9px] font-bold uppercase tracking-[0.28em] text-sky/80">
-                    Leadership
-                  </p>
-                  <p className="font-heading mt-1 text-3xl font-bold not-italic text-white">
-                    Anjali Simon
-                  </p>
-                  <p className="font-body mt-1 text-sm font-light text-white/75">
-                    Founder & Chief Executive
-                  </p>
-                </div>
-              </div>
-              {/* Corner decoration */}
-              <div
-                aria-hidden
-                className="pointer-events-none absolute -bottom-3 -right-3 hidden h-14 w-14 border-b-2 border-r-2 border-orange/25 lg:block"
-              />
-            </div>
-
+          <div className="grid items-center gap-14  lg:gap-20">
             {/* Content */}
             <div>
               <div className="mb-5 flex items-center gap-3">
