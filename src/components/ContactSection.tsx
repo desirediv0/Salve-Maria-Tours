@@ -19,7 +19,7 @@ const contactItems = [
   {
     icon: HiLocationMarker,
     label: "Address",
-    value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005",
+    value: "Adaani Oyester Grande, Sector 102, Dwarka Express Way, Gurgaon 122005",
     href: undefined,
   },
   {
@@ -109,7 +109,7 @@ export function ContactSection({ showIntro = true }: { showIntro?: boolean }) {
                 Contact Information
               </h3>
               <p className="font-body mt-2 text-sm font-light leading-relaxed text-white/50">
-                Delhi office — always happy to hear from you.
+                Gurgaon office — always happy to hear from you.
               </p>
 
               {/* Contact items */}

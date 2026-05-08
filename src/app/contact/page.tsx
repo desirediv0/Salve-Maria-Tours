@@ -39,7 +39,7 @@ const quickContacts = [
   {
     icon: "📍",
     label: "Visit Us",
-    value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005",
+    value: "Adaani Oyester Grande, Sector 102, Dwarka Express Way, Gurgaon 122005",
     sub: "",
     href: undefined,
     color: "navy" as const,
@@ -129,7 +129,7 @@ export default function ContactPage() {
             <div className="overflow-hidden rounded-2xl shadow-card lg:col-span-2">
               <iframe
                 title="Salve Maria Tours office location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2!2d77.0!3d28.59!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sSector%2012%20Dwarka%2C%20Delhi!5e0!3m2!1sen!2sin!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.671042732733!2d76.97441607550346!3d28.48911007574513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e078028723%3A0x5e22934898124619!2sAdani%20Oyster%20Grande!5e0!3m2!1sen!2sin!4v1715160000000!5m2!1sen!2sin"
                 width="100%"
                 height="320"
                 style={{ border: 0, display: "block" }}
@@ -159,7 +159,7 @@ export default function ContactPage() {
                 </p>
                 <div className="mt-4 space-y-2.5">
                   {[
-                    { label: "Address", value: "Adaani Oyester Grande, Sector 102 Dwarka Express Way Gurgaon 122005" },
+                    { label: "Address", value: "Adaani Oyester Grande, Sector 102, Dwarka Express Way, Gurgaon 122005" },
                     { label: "Hours", value: "Monday–Saturday: 9:00 AM – 5:00 PM" },
                     { label: "Phone", value: "+91 9958815430" },
                   ].map((row) => (
@@ -177,7 +177,7 @@ export default function ContactPage() {
 
               {/* Directions CTA */}
               <a
-                href="https://maps.google.com/?q=Adaani+Oyester+Grande+Sector+102+Dwarka+Express+Way+Gurgaon+122005"
+                href="https://maps.google.com/?q=Adaani+Oyester+Grande+Sector+102+Gurgaon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 rounded-2xl border border-gray-200 bg-white px-5 py-4 font-body text-sm font-semibold text-navy shadow-card transition-all hover:border-sky/30 hover:shadow-card-hover"

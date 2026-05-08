@@ -1,12 +1,11 @@
 ﻿import type { Metadata } from "next";
-import Image from "next/image";
 import { PageHero } from "@/components/PageHero";
 import { FaHeart, FaShieldAlt, FaStar, FaUsers } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Salve Maria Tours & Travels — our story, mission, and commitment to Catholic pilgrimage and travel from Delhi, India.",
+    "Learn about Salve Maria Tours & Travels — our story, mission, and commitment to Catholic pilgrimage and travel from Gurgaon, India.",
 };
 
 const heroImage =
@@ -85,7 +84,7 @@ export default function AboutPage() {
             {/* Right — body copy */}
             <div className="space-y-6 lg:col-span-8">
               {[
-                "Salve Maria Tours & Travels began with a simple conviction: travel should draw people closer to God, to one another, and to the beauty of the world He made. From our base in Delhi, we have served pilgrims, families, and organizations with itineraries that balance prayer, rest, and discovery.",
+                "Salve Maria Tours & Travels began with a simple conviction: travel should draw people closer to God, to one another, and to the beauty of the world He made. From our base in Gurgaon, we have served pilgrims, families, and organizations with itineraries that balance prayer, rest, and discovery.",
                 "Over the years, our team has built trusted partnerships across India and abroad — from boutique hotels and reliable transport partners to parish communities and experienced spiritual guides. Whether you are walking the shores of Vellankani or planning a corporate retreat in the hills, we listen first, then design every detail around your needs.",
                 "Today, Salve Maria continues to grow as a Catholic pilgrimage and travel agency known for integrity, warmth, and seamless execution. We are grateful for every pilgrim who invites us into their journey — and we look forward to serving you with the same care that has defined us from the beginning.",
               ].map((para, i) => (

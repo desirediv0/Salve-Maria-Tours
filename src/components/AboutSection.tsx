@@ -8,7 +8,7 @@ import { SectionLabel } from "./SectionLabel";
 import { SecondaryNavyLink } from "./PremiumButtons";
 
 const mainImg =
-  "/Travel-2.jpg";
+  "/Travel-2.jpeg";
 const overlayImg =
   "/Travel.jpg";
 

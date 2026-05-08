@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
@@ -6,7 +6,7 @@ import { HiArrowRight } from "react-icons/hi2";
 import Link from "next/link";
 
 const HERO_VIDEO =
-  "https://videos.pexels.com/video-files/3195391/3195391-hd_1280_720_25fps.mp4";
+  "https://desirediv-storage.blr1.cdn.digitaloceanspaces.com/belvo/WhatsApp%20Video%202026-05-08%20at%2011.01.30%20AM.mp4";
 
 const STATS = [
   { value: "2,000+", label: "Happy Pilgrims" },
@@ -34,7 +34,6 @@ export function HeroSection() {
           muted
           loop
           playsInline
-          poster="/home.jpg"
         >
           <source src={HERO_VIDEO} type="video/mp4" />
         </video>
