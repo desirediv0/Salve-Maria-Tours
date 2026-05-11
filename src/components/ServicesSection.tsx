@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { motion, useInView } from "framer-motion";
@@ -67,7 +67,7 @@ const services: {
       icon: FaHeartbeat,
       title: "Medical Tourism",
       description:
-        "Expert-guided medical travel with top hospitals and comfortable recovery stays.",
+        "World-class medical travel assistance connecting you with top-tier hospitals and serene recovery stays.",
       tag: "Specialised",
       accent: "navy",
     },
@@ -166,14 +166,7 @@ export function ServicesSection() {
                   {s.description}
                 </p>
 
-                {/* CTA */}
-                <Link
-                  href="/services"
-                  className={`font-body mt-6 inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.15em] transition-all duration-300 hover:gap-2.5 ${a.arrow}`}
-                >
-                  Learn more
-                  <span aria-hidden className="text-sm">→</span>
-                </Link>
+
 
                 {/* Bottom accent line — reveals on hover */}
                 <span

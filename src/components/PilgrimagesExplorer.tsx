@@ -43,8 +43,8 @@ export function PilgrimagesExplorer() {
                 type="button"
                 onClick={() => setRegion(t.id)}
                 className={`relative rounded-full px-5 py-2.5 font-body text-xs font-bold uppercase tracking-[0.15em] transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange ${active
-                    ? "bg-navy text-white shadow-card"
-                    : "border border-gray-200 bg-white text-navy/65 hover:text-navy hover:border-gray-300 hover:-translate-y-px"
+                  ? "bg-navy text-white shadow-card"
+                  : "border border-gray-200 bg-white text-navy/65 hover:text-navy hover:border-gray-300 hover:-translate-y-px"
                   }`}
               >
                 {/* Active region accent dot */}
@@ -139,12 +139,7 @@ export function PilgrimagesExplorer() {
 
                 {/* Footer row */}
                 <div className="mt-6 flex items-center justify-between border-t border-gray-100 pt-5">
-                  <Link
-                    href="/contact"
-                    className="font-body text-xs font-bold uppercase tracking-[0.15em] text-navy transition-all duration-300 hover:text-orange"
-                  >
-                    View Details →
-                  </Link>
+
                   {/* Enquire pill */}
                   <Link
                     href="/contact"
