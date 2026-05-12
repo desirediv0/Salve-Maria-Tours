@@ -1,12 +1,12 @@
-﻿"use client";
+"use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi2";
 import type { DestinationCard } from "@/lib/destinations-page";
 import { staggerContainer, staggerItem } from "@/lib/motion";
+import { InnerImageSlider } from "./InnerImageSlider";
 
 export function DestinationsGrid({ items }: { items: DestinationCard[] }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -31,13 +31,10 @@ export function DestinationsGrid({ items }: { items: DestinationCard[] }) {
             className={`group relative flex flex-col justify-end overflow-hidden rounded-2xl shadow-card transition-all duration-500 hover:-translate-y-1.5 hover:shadow-card-hover ${isTall ? "min-h-[440px]" : "min-h-[360px]"
               }`}
           >
-            {/* Background image */}
-            <Image
-              src={d.image}
-              alt={d.title}
-              fill
-              quality={90}
-              className="object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+            {/* Background image slider */}
+            <InnerImageSlider 
+              images={d.images} 
+              alt={d.title} 
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             />
 

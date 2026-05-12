@@ -18,7 +18,6 @@ const regions = [
   { label: "South India", count: 1, color: "sky" as const },
   { label: "West India", count: 1, color: "orange" as const },
   { label: "Hill Stations", count: 1, color: "sky" as const },
-  { label: "Adventure", count: 1, color: "navy" as const },
 ];
 
 export default function DestinationsPage() {

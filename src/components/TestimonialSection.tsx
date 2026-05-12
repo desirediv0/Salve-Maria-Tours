@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
@@ -24,14 +24,6 @@ const testimonials = [
     initials: "AD",
     rating: 5,
     featured: true,
-  },
-  {
-    quote:
-      "We felt cared for from the first call to the final blessing. Truly a trustworthy partner for sacred travel.",
-    name: "Fr. Paul Varghese",
-    place: "North India Shrines",
-    initials: "PV",
-    rating: 5,
   },
 ];
 
@@ -59,7 +51,7 @@ export function TestimonialSection() {
           variants={staggerContainer}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
-          className="grid gap-5 md:grid-cols-3"
+          className="mx-auto grid max-w-5xl gap-5 md:grid-cols-2"
         >
           {testimonials.map((t) => (
             <motion.figure
@@ -157,7 +149,7 @@ export function TestimonialSection() {
         <FadeUp delay={0.35}>
           <div className="mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-6">
             <div className="flex -space-x-2">
-              {["MJ", "AD", "PV", "SR", "KA"].map((i) => (
+              {["MJ", "AD", "SR", "KA"].map((i) => (
                 <div
                   key={i}
                   className="flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-navy font-body text-[9px] font-bold text-sky shadow-sm"

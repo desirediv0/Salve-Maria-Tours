@@ -12,75 +12,120 @@ import {
   FaLandmark,
   FaLeaf,
   FaMountain,
-  FaPrayingHands,
   FaUmbrellaBeach,
 } from "react-icons/fa";
-import type { IconType } from "react-icons";
+import { IconType } from "react-icons";
 import { FadeUp } from "./FadeUp";
 import { SectionLabel } from "./SectionLabel";
+import { useState, useEffect } from "react";
+import { AnimatePresence, motion as m } from "framer-motion";
+
+interface InnerImageSliderProps {
+  images: string[];
+  alt: string;
+}
+
+function InnerImageSlider({ images, alt }: InnerImageSliderProps) {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % images.length);
+    }, 4000); // Change image every 4 seconds
+    return () => clearInterval(timer);
+  }, [images.length]);
+
+  return (
+    <div className="absolute inset-0 h-full w-full">
+      <AnimatePresence mode="wait">
+        <m.div
+          key={index}
+          initial={{ opacity: 0, scale: 1.1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.95 }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+          className="absolute inset-0 h-full w-full"
+        >
+          <Image
+            src={images[index]}
+            alt={`${alt} ${index + 1}`}
+            fill
+            quality={90}
+            className="object-cover"
+            sizes="(max-width: 640px) 78vw, 300px"
+          />
+        </m.div>
+      </AnimatePresence>
+
+      {/* Progress indicators */}
+      <div className="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-1.5 z-10">
+        {images.map((_, i) => (
+          <div
+            key={i}
+            className={`h-1 rounded-full transition-all duration-700 ${i === index ? "w-4 bg-orange" : "w-1.5 bg-white/30"
+              }`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
 
 const destinations: {
   icon: IconType;
   name: string;
   sub: string;
   tag: string;
-  src: string;
+  images: string[];
 }[] = [
     {
       icon: FaLandmark,
       name: "Golden Triangle",
       sub: "Delhi · Agra · Jaipur",
       tag: "North India",
-      src: "/Golden Triangle.jpg",
+      images: ["/india-gate.jpg", "/agra.jpg", "/hawa-mahal.jpg"],
     },
     {
       icon: FaLeaf,
       name: "Kerala Backwaters",
       sub: "God's Own Country",
       tag: "South India",
-      src: "/Kerala Backwaters.jpg",
+      images: ["/kerala.jpg", "/kerala-2.jpg"],
     },
     {
       icon: FaUmbrellaBeach,
       name: "Goa",
       sub: "Sun, Sand & Sacred Sites",
       tag: "West India",
-      src: "/Goa.jpg",
+      images: ["/Goa.jpg", "/goa-2.jpg"],
     },
     {
       icon: FaChurch,
       name: "Vellankani",
       sub: '"Lourdes of the East"',
       tag: "South India",
-      src: "/vellankani-basilica.jpg",
+      images: ["/Vellankani.jpg", "/Vellankani-2.avif"],
     },
     {
       icon: FaMountain,
       name: "Shimla & Manali",
       sub: "Snow & Serenity",
       tag: "Hill Stations",
-      src: "/Shimla & Manali.jpg",
+      images: ["/Shimla & Manali.jpg", "/Shimla & Manali-2.jpg"],
     },
     {
       icon: FaCity,
       name: "Mumbai",
       sub: "City of Dreams",
       tag: "West India",
-      src: "/Mumbai.jpg",
-    },
-    {
-      icon: FaPrayingHands,
-      name: "Rishikesh",
-      sub: "Spiritual Gateway",
-      tag: "North India",
-      src: "/Rishikesh.jpg",
+      images: ["/Mumbai.jpg", "/mumbai-2.jpg"],
     },
     {
       icon: FaFortAwesome,
       name: "Rajasthan",
       sub: "Royal Heritage",
       tag: "North India",
-      src: "/Rajasthan.jpg",
+      images: ["/Rajasthan.jpg", "/Rajasthan-2.jpg"],
     },
   ];
 
@@ -146,15 +191,8 @@ export function DestinationsCarousel() {
                   className="min-w-0 shrink-0 grow-0 basis-[78vw] sm:basis-[280px] lg:basis-[300px]"
                 >
                   <article className="group relative h-[400px] w-full overflow-hidden rounded-2xl shadow-card transition-all duration-500 hover:-translate-y-2 hover:shadow-card-hover">
-                    {/* Image */}
-                    <Image
-                      src={d.src}
-                      alt={d.name}
-                      fill
-                      quality={90}
-                      className="object-cover transition-transform duration-700 group-hover:scale-[1.07]"
-                      sizes="(max-width: 640px) 78vw, 300px"
-                    />
+                    {/* Image Slider */}
+                    <InnerImageSlider images={d.images} alt={d.name} />
 
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-[#060A14]/90 via-[#060A14]/30 to-transparent" />

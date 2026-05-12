@@ -2,7 +2,7 @@ export type DestinationCard = {
   slug: string;
   title: string;
   highlights: string[];
-  image: string;
+  images: string[];
   tag: string;
 };
 
@@ -11,48 +11,35 @@ export const DESTINATION_PAGE_CARDS: DestinationCard[] = [
     slug: "golden-triangle",
     title: "Golden Triangle",
     highlights: ["Delhi", "Agra", "Jaipur"],
-    image:
-      "/Golden Triangle.jpg",
+    images: ["/india-gate.jpg", "/agra.jpg", "/hawa-mahal.jpg"],
     tag: "Heritage Circuit",
   },
   {
     slug: "north-india",
     title: "North India",
     highlights: ["Delhi", "Rajasthan", "Punjab", "Agra"],
-    image:
-      "/Rajasthan.jpg",
+    images: ["/Rajasthan.jpg", "/Rajasthan-2.jpg"],
     tag: "Royal North",
   },
   {
     slug: "south-india",
     title: "South India",
     highlights: ["Kerala", "Vellankani", "Pondicherry"],
-    image:
-      "/Kerala Backwaters.jpg",
+    images: ["/kerala.jpg", "/kerala-2.jpg", "/Vellankani.jpg"],
     tag: "Coastal & Sacred",
   },
   {
     slug: "west-india",
     title: "West India",
     highlights: ["Mumbai", "Goa"],
-    image:
-      "/Goa.jpg",
+    images: ["/Goa.jpg", "/goa-2.jpg", "/Mumbai.jpg"],
     tag: "Metro & Shores",
   },
   {
     slug: "hill-stations",
     title: "Hill Stations",
     highlights: ["Shimla", "Manali", "Dharamshala", "Nainital"],
-    image:
-      "/Shimla & Manali.jpg",
+    images: ["/Shimla & Manali.jpg", "/Shimla & Manali-2.jpg"],
     tag: "Mountains",
-  },
-  {
-    slug: "rishikesh",
-    title: "Rishikesh",
-    highlights: ["Adventure", "Spiritual gateway", "Ganga Aarti"],
-    image:
-      "/Rishikesh.jpg",
-    tag: "Adventure & Spirit",
   },
 ];
