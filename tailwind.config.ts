@@ -42,9 +42,10 @@ const config: Config = {
       animation: {
         "pulse-soft": "pulse-soft 2.2s ease-in-out infinite",
         "scroll-hint": "scroll-hint 1.6s ease-in-out infinite",
+        "spin-slow": "spin 8s linear infinite",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
 export default config;

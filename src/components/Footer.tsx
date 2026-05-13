@@ -162,7 +162,7 @@ export function Footer() {
                 <li className="flex items-start gap-3">
                   <HiLocationMarker className="mt-0.5 h-3.5 w-3.5 shrink-0 text-sky/70" aria-hidden />
                   <span className="font-body text-sm font-light leading-snug text-white/55">
-                    Adaani Oyester Grande, Sector 102<br />Dwarka Express Way, Gurgaon 122005
+                    Sector 102<br />Dwarka Express Way, Gurgaon 122005
                   </span>
                 </li>
                 <li>

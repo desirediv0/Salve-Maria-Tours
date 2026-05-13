@@ -19,7 +19,7 @@ const contactItems = [
   {
     icon: HiLocationMarker,
     label: "Address",
-    value: "Adaani Oyester Grande, Sector 102, Dwarka Express Way, Gurgaon 122005",
+    value: "Sector 102, Dwarka Express Way, Gurgaon 122005",
     href: undefined,
   },
   {
