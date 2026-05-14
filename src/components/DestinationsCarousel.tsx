@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -97,35 +97,35 @@ const destinations: {
       name: "Goa",
       sub: "Sun, Sand & Sacred Sites",
       tag: "West India",
-      images: ["/Goa.jpg", "/goa-2.jpg"],
+      images: ["/goa.jpg", "/goa-2.jpg"],
     },
     {
       icon: FaChurch,
       name: "Vellankani",
       sub: '"Lourdes of the East"',
       tag: "South India",
-      images: ["/Vellankani.jpg", "/Vellankani-2.avif"],
+      images: ["/vellankani.jpg", "/vellankani-2.avif"],
     },
     {
       icon: FaMountain,
       name: "Shimla & Manali",
       sub: "Snow & Serenity",
       tag: "Hill Stations",
-      images: ["/Shimla & Manali.jpg", "/Shimla & Manali-2.jpg"],
+      images: ["/shimla-and-manali.jpg", "/shimla-and-manali-2.jpg"],
     },
     {
       icon: FaCity,
       name: "Mumbai",
       sub: "City of Dreams",
       tag: "West India",
-      images: ["/Mumbai.jpg", "/mumbai-2.jpg"],
+      images: ["/mumbai.jpg", "/mumbai-2.jpg"],
     },
     {
       icon: FaFortAwesome,
       name: "Rajasthan",
       sub: "Royal Heritage",
       tag: "North India",
-      images: ["/Rajasthan.jpg", "/Rajasthan-2.jpg"],
+      images: ["/rajasthan.jpg", "/rajasthan-2.jpg"],
     },
   ];
 

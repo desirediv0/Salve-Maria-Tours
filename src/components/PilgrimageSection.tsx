@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
@@ -11,7 +11,7 @@ const places = [
   {
     name: "Vellankani Basilica",
     region: "Tamil Nadu",
-    src: "/Velankanni-Tamilnadu.jpg",
+    src: "/velankanni-tamilnadu.jpg",
   },
   {
     name: "Basilica of Bom Jesus",

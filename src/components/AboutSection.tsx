@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
@@ -8,9 +8,9 @@ import { SectionLabel } from "./SectionLabel";
 import { SecondaryNavyLink } from "./PremiumButtons";
 
 const mainImg =
-  "/Travel-2.jpeg";
+  "/travel-2.jpeg";
 const overlayImg =
-  "/Travel.jpg";
+  "/travel.jpg";
 
 const pillars = [
   {
