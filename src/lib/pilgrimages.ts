@@ -17,7 +17,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Kuravilangad, Kerala",
       description:
         "St. Mary's Church Kuravilangad is one of the oldest Christian pilgrimage centers in Kerala, believed to have been built in 105 AD. According to tradition, Mother Mary appeared to children here and asked them to build a church where a miraculous spring appeared. The spring still exists today, making the church an important and sacred site for Christians.",
-      image: "/st-marys-martha-mariyam.jpeg",
+      image: "/st-marys-martha-mariyam.jpg",
     },
     {
       id: "bharananganam",
@@ -25,7 +25,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Bharananganam, Kerala",
       description:
         "St. Mary's Forane Church is a famous Catholic church in Kerala and an important pilgrimage center known as the resting place of Saint Alphonsa, the first woman saint of India. Thousands of devotees visit the church every year to pray and seek blessings.",
-      image: "/st-marys-forane-church.png",
+      image: "/st-marys-forane-church.jpg",
     },
     {
       id: "vellankani",
@@ -33,7 +33,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Vellankani, Tamil Nadu",
       description:
         "Basilica of Our Lady of Good Health, popularly known as Velankanni Church, is one of the most famous Christian pilgrimage centers in Tamil Nadu. Dedicated to Mother Mary, the church is known for miraculous healings and is often called the “Lourdes of the East.” Thousands of devotees from different religions visit the basilica every year to pray and seek blessings.",
-      image: "/basilica-of-our-lady-of-good-health.png",
+      image: "/vellankani.jpg",
     },
     {
       id: "san-thome",
@@ -59,7 +59,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Goa",
       description:
         "Cathedral of the Latin Church Archdiocese of Goa, UNESCO World Heritage Site.",
-      image: "/se-cathedral.jpeg",
+      image: "/se-cathedral.jpg",
     },
     {
       id: "st-thomas-mumbai",
@@ -67,7 +67,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Mumbai",
       description:
         "300-year-old Anglican cathedral named after Saint Thomas the Apostle.",
-      image: "/st-thomas-cathedral.png",
+      image: "/st-thomas-cathedral.jpg",
     },
   ],
   north: [
@@ -77,7 +77,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "New Delhi",
       description:
         "Sacred Heart Cathedral is one of the oldest and largest Catholic churches in New Delhi. Built in 1930, the cathedral is known for its beautiful Italian-style architecture, peaceful atmosphere, and grand Christmas celebrations. It serves as the main cathedral of the Catholic Archdiocese of Delhi and is an important place of worship for Christians in the capital city.",
-      image: "/sacred-heart-cathedral.png",
+      image: "/sacred-heart-cathedral.jpg",
     },
     {
       id: "sardhana",
@@ -85,7 +85,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Sardhana, Uttar Pradesh",
       description:
         "Basilica of Our Lady of Graces is a historic Catholic basilica located in Sardhana near Meerut. Built in 1822 by Begum Samru, the church is famous for its stunning European-style architecture and spiritual significance. It is one of the largest churches in North India and attracts pilgrims and tourists from across the country.",
-      image: "/basilica-of-our-lady-of-graces.png",
+      image: "/basilica-of-our-lady-of-graces.jpg",
     },
     {
       id: "st-jude-jhansi",
@@ -93,7 +93,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Jhansi, Uttar Pradesh",
       description:
         "St. Jude Shrine is a well-known Catholic pilgrimage center in Jhansi dedicated to Saint Jude. The shrine is famous for its peaceful atmosphere and strong devotion among believers who visit to pray for hope, healing, and blessings. It attracts thousands of devotees, especially during the annual feast celebrations.",
-      image: "/st-jude-shrine.png",
+      image: "/st-jude-shrine.jpg",
     },
   ],
 };

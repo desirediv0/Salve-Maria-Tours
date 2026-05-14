@@ -11,7 +11,7 @@ const places = [
   {
     name: "Vellankani Basilica",
     region: "Tamil Nadu",
-    src: "/velankanni-tamilnadu.jpg",
+    src: "/vellankani-tamilnadu.jpg",
   },
   {
     name: "Basilica of Bom Jesus",
@@ -21,7 +21,7 @@ const places = [
   {
     name: "Sacred Heart Cathedral",
     region: "Delhi",
-    src: "/sacred-heart-of-cathedral-church1.jpg",
+    src: "/sacred-heart-cathedral.jpg",
   },
   {
     name: "St. Alphonsa Church",
