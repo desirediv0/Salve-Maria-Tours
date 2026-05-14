@@ -104,7 +104,7 @@ const destinations: {
       name: "Vellankani",
       sub: '"Lourdes of the East"',
       tag: "South India",
-      images: ["/Vellankani.jpg", "/vellankani-basilica.jpg"],
+      images: ["/vellankani.jpg", "/vellankani-basilica.jpg"],
     },
     {
       icon: FaMountain,

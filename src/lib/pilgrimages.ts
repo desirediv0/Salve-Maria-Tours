@@ -33,7 +33,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Vellankani, Tamil Nadu",
       description:
         "Basilica of Our Lady of Good Health, popularly known as Velankanni Church, is one of the most famous Christian pilgrimage centers in Tamil Nadu. Dedicated to Mother Mary, the church is known for miraculous healings and is often called the “Lourdes of the East.” Thousands of devotees from different religions visit the basilica every year to pray and seek blessings.",
-      image: "/Vellankani.jpg",
+      image: "/vellankani.jpg",
     },
     {
       id: "san-thome",
