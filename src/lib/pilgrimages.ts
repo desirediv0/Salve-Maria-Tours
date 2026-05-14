@@ -59,7 +59,7 @@ export const PILGRIMAGE_BY_REGION: Record<
       location: "Goa",
       description:
         "Cathedral of the Latin Church Archdiocese of Goa, UNESCO World Heritage Site.",
-      image: "/se-cathedral.jpg",
+      image: "/se-cathedral.jpeg",
     },
     {
       id: "st-thomas-mumbai",
