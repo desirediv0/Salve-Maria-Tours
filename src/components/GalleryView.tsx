@@ -87,14 +87,6 @@ const galleryImages = [
     caption: "Group gathering outside the sacred pilgrimage site, offering thanks and prayers.",
     category: "destinations",
     aspect: "aspect-[16/9]" // Wide Landscape
-  },
-  {
-    id: 10,
-    src: "https://desirediv-storage.blr1.cdn.digitaloceanspaces.com/salve-maria/gal-%20(10).jpeg",
-    title: "Marian Devotion Group",
-    caption: "Commemorating the grace-filled pilgrimage with a warm photo of all our faith travelers.",
-    category: "group-tours",
-    aspect: "aspect-[4/3]" // Landscape
   }
 ];
 
