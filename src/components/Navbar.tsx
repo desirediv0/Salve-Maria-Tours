@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -13,6 +13,7 @@ const links = [
   { href: "/services", label: "Services" },
   { href: "/pilgrimages", label: "Pilgrimages" },
   { href: "/destinations", label: "Destinations" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
 ];
 
