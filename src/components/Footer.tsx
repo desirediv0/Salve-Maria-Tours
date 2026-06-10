@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { HiLocationMarker, HiMail, HiPhone } from "react-icons/hi";
 import { FacebookIcon, InstagramIcon } from "./brand-icons";
-import { NewsletterSignup } from "./NewsletterSignup";
+
 
 const quickLinks = [
   { href: "/", label: "Home" },
@@ -188,12 +188,7 @@ export function Footer() {
             </div>
 
             {/* Newsletter */}
-            <div className="rounded-xl border border-white/8 bg-white/4 p-4">
-              <p className="font-body mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
-                Newsletter
-              </p>
-              <NewsletterSignup />
-            </div>
+
           </div>
         </div>
       </div>
