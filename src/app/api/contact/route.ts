@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-      from: `"Salve Maria Website" <${process.env.FROM_EMAIL}>`,
+      from: `"Salve Maria Tours" <${process.env.FROM_EMAIL}>`,
       to: process.env.ADMIN_EMAIL,
       replyTo: email,
       subject: `New Inquiry from ${name} - Salve Maria Tours`,
